@@ -1,0 +1,74 @@
+/*hero background image*/
+.bgimage {
+    height: 100vh;
+    background: url('images/bimage1.jpg');
+    background-size: cover;
+    position: relative;
+}
+
+/* text above hero image*/
+.hero_title {
+    font-size: 4.5rem;
+}
+.hero_desc {
+    font-size: 2rem;
+}
+.hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+.imageAboutPage {
+    width: 100%;
+}
+.skills .box
+{
+    position: relative;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 150px 1fr;
+    justify-content: center;
+    align-items: center;
+ }
+.skills .box h4
+{
+    text-transform: uppercase ;
+    color: #848c99;
+    font-weight: 500;
+}
+.skills .box  .percent
+{
+    position: relative;
+    width: 100%;
+    height: 10px;
+    background: #f0f0f0;
+}
+.skills .box .percent div 
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background: #03a9f4;
+}
+.contact-section {
+    text-align: center;
+    padding: 50px 0;
+}
+.contact-icons a {
+    font-size: 36px;
+    margin: 0 20px;
+    color: #333;
+    transition: color 0.3s ease;
+}
+.contact-icons a:hover {
+    color: #007bff;
+}
+.contact-header {
+    font-size: 36px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
